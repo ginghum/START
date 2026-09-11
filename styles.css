@@ -36,5 +36,8 @@ a{color:inherit}
 .art-card--sketch img{max-height:1120px}
 .art-card figcaption{padding:12px 4px 4px;color:#6d5c50}
 .note{font-size:.85rem;color:#7d6c60}
+.loading-message,.error-message,.not-found{grid-column:1/-1;padding:44px 26px;border:1px solid var(--line);background:var(--paper);color:var(--muted);line-height:1.8}
+.error-message{border-color:#b98f7a;color:#704735}
+.not-found{margin:30px 0 80px}
 @media(max-width:900px){.character-grid,.character-head,.image-grid{grid-template-columns:1fr}.character-card{min-height:210px}.art-card--portrait img,.art-card--sketch img{max-height:none}.facts{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.topbar{align-items:flex-start;flex-direction:column}.facts{grid-template-columns:1fr}.character-card img{height:360px}}

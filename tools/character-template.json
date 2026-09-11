@@ -1,0 +1,22 @@
+{
+  "id": "new-character",
+  "name": "ニックネーム",
+  "realName": "本名",
+  "kicker": "FIRST YEAR / GRADE 1 / UNAFFILIATED",
+  "summary": "一覧に表示する短い紹介文。",
+  "quotes": [
+    "「キャラクターの台詞」"
+  ],
+  "facts": [
+    { "label": "学年", "value": "一年生" },
+    { "label": "身長", "value": "170cm" },
+    { "label": "性別", "value": "男" },
+    { "label": "Grade", "value": "1" },
+    { "label": "所属", "value": "無所属" },
+    { "label": "能力", "value": "能力の説明" }
+  ],
+  "bio": [
+    "紹介文の一段落目。",
+    "紹介文の二段落目。"
+  ]
+}

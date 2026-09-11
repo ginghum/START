@@ -24,6 +24,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate character catalog
+        run: python tools/validate-catalog.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

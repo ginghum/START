@@ -3,39 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="オリジナルストーリー『マジカルカース帝国国立高等学校』のキャラクター名鑑">
   <title>カス高 キャラクター名鑑</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
-<body>
+<body data-page="home">
   <main class="home-shell">
     <section class="hero">
       <p class="eyebrow">MAGICAL CURSE IMPERIAL NATIONAL HIGH SCHOOL</p>
       <h1>カス高<br>キャラクター名鑑</h1>
-      <p class="lead">オリジナルストーリー「マジカルカース帝国国立高等学校」の主要キャラクター紹介サイト。茶色のローブをまとう一年生三人組から掲載中。</p>
+      <p class="lead">オリジナルストーリー「マジカルカース帝国国立高等学校」の主要キャラクター紹介サイト。<span id="character-count">キャラクターを読み込んでいます。</span></p>
     </section>
 
-    <section class="character-grid" aria-label="キャラクター一覧">
-      <a class="character-card" href="characters/plus.html">
-        <span class="card-kicker">FIRST YEAR / GRADE 1 / UNAFFILIATED</span>
-        <img src="assets/plus-ai.png" alt="プラスのAI立ち絵">
-        <strong>プラス</strong>
-        <span>本名：プラス・ゼロ</span>
-        <p>記憶のない転校生。夢は、学園の全員と友達になること。</p>
-      </a>
-      <a class="character-card" href="characters/yuji.html">
-        <span class="card-kicker">FIRST YEAR / GRADE 1 / COSPLAY CIRCLE</span>
-        <img src="assets/yuji-ai.png" alt="ユージのAI立ち絵">
-        <strong>ユージ</strong>
-        <span>本名：盛岡友児</span>
-        <p>プラスを案内する最初の友人。大声だけど弱気な常識人。</p>
-      </a>
-      <a class="character-card" href="characters/lance.html">
-        <span class="card-kicker">FIRST YEAR / GRADE 1 / OTAKU CIRCLE</span>
-        <img src="assets/lance-ai.png" alt="ランスのAI立ち絵">
-        <strong>ランス</strong>
-        <span>本名：ジェイル・アルムダイン</span>
-        <p>Grade 1に留まる決闘常連。星は全部ゆきめろちゃんへ。</p>
-      </a>
+    <section id="character-grid" class="character-grid" aria-label="キャラクター一覧" aria-live="polite">
+      <p class="loading-message">キャラクターを読み込んでいます。</p>
     </section>
   </main>
 </body>
