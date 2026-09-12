@@ -2,7 +2,7 @@ const DATA_URL = "data/characters.json";
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch(DATA_URL);
+    const response = await fetch(DATA_URL, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const characters = await response.json();
