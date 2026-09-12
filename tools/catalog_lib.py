@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -19,6 +20,15 @@ REQUIRED_FIELDS = {
     "bio",
 }
 ID_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+
+
+def file_version(path: Path) -> str:
+    """Return a short content hash used to invalidate stale browser/CDN caches."""
+    digest = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(64 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()[:12]
 
 
 def validate_record(record: object, expected_id: str | None = None) -> dict:
@@ -102,9 +112,18 @@ def compile_catalog(root: Path) -> list[dict]:
     for profile in profiles:
         character = {key: value for key, value in profile.items() if key != "order"}
         character_id = character["id"]
+        character_root = root / "characters-data" / character_id
+        portrait = character_root / "portrait.webp"
+        original = character_root / "original.webp"
         character["images"] = {
-            "portrait": f"characters-data/{character_id}/portrait.webp",
-            "original": f"characters-data/{character_id}/original.webp",
+            "portrait": (
+                f"characters-data/{character_id}/portrait.webp"
+                f"?v={file_version(portrait)}"
+            ),
+            "original": (
+                f"characters-data/{character_id}/original.webp"
+                f"?v={file_version(original)}"
+            ),
         }
         catalog.append(character)
     return catalog
