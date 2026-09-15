@@ -19,8 +19,65 @@ document.addEventListener("DOMContentLoaded", async () => {
 function renderCharacterList(characters) {
   const grid = document.querySelector("#character-grid");
   const count = document.querySelector("#character-count");
-  grid.replaceChildren();
   count.textContent = `${characters.length}名を掲載中。`;
+
+  const gradeFilter = document.querySelector("#grade-filter");
+  const clubFilter = document.querySelector("#club-filter");
+  const factionFilter = document.querySelector("#faction-filter");
+  const resetButton = document.querySelector("#reset-filters");
+  const result = document.querySelector("#filter-result");
+
+  const grades = uniqueFactValues(characters, "Grade").sort(compareGrades);
+  const clubs = [...new Set(characters.map(clubValue).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b, "ja")
+  );
+  addOptions(gradeFilter, grades, (grade) => `Grade ${grade}`);
+  addOptions(clubFilter, clubs);
+
+  const applyFilters = () => {
+    const selectedGrade = gradeFilter.value;
+    const selectedClub = clubFilter.value;
+    const selectedFaction = factionFilter.value;
+    const filtered = characters.filter((character) => {
+      return (
+        (!selectedGrade || factValue(character, "Grade") === selectedGrade) &&
+        (!selectedClub || clubValue(character) === selectedClub) &&
+        (!selectedFaction || characterFactions(character).includes(selectedFaction))
+      );
+    });
+
+    renderCharacterCards(grid, filtered);
+    const hasFilters = Boolean(selectedGrade || selectedClub || selectedFaction);
+    result.textContent = hasFilters
+      ? `${characters.length}名中 ${filtered.length}名を表示しています。`
+      : `全${characters.length}名を表示しています。`;
+    resetButton.disabled = !hasFilters;
+  };
+
+  [gradeFilter, clubFilter, factionFilter].forEach((filter) => {
+    filter.addEventListener("change", applyFilters);
+  });
+  resetButton.addEventListener("click", () => {
+    gradeFilter.value = "";
+    clubFilter.value = "";
+    factionFilter.value = "";
+    applyFilters();
+    gradeFilter.focus();
+  });
+
+  setupBackToTop();
+  applyFilters();
+}
+
+function renderCharacterCards(grid, characters) {
+  grid.replaceChildren();
+
+  if (!characters.length) {
+    grid.append(
+      element("p", "no-results", "条件に一致するキャラクターはいません。")
+    );
+    return;
+  }
 
   characters.forEach((character) => {
     const card = element("a", "character-card");
@@ -41,6 +98,69 @@ function renderCharacterList(characters) {
     );
     grid.append(card);
   });
+}
+
+function factValue(character, label) {
+  return character.facts.find((fact) => fact.label === label)?.value ?? "";
+}
+
+function uniqueFactValues(characters, label) {
+  return [...new Set(characters.map((character) => factValue(character, label)).filter(Boolean))];
+}
+
+function clubValue(character) {
+  const club = factValue(character, "所属");
+  return club === "未所属" ? "無所属" : club;
+}
+
+function compareGrades(a, b) {
+  const aNumber = Number(a);
+  const bNumber = Number(b);
+  if (Number.isFinite(aNumber) && Number.isFinite(bNumber)) return aNumber - bNumber;
+  if (Number.isFinite(aNumber)) return -1;
+  if (Number.isFinite(bNumber)) return 1;
+  return a.localeCompare(b, "ja");
+}
+
+function addOptions(select, values, labelFor = (value) => value) {
+  values.forEach((value) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = labelFor(value);
+    select.append(option);
+  });
+}
+
+function characterFactions(character) {
+  const role = [factValue(character, "立場"), factValue(character, "役職")].join("／");
+  const factions = [];
+
+  if (role.includes("反生徒会")) factions.push("anti-council");
+  else if (role.includes("生徒会")) factions.push("student-council");
+
+  if (role.includes("パシフィスタ") || role.includes("レジスタンス")) {
+    factions.push("resistance");
+  }
+  return factions;
+}
+
+function setupBackToTop() {
+  const button = document.querySelector("#back-to-top");
+  if (!button) return;
+
+  const updateVisibility = () => {
+    button.classList.toggle("is-visible", window.scrollY > 480);
+  };
+  button.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
+    });
+  });
+  window.addEventListener("scroll", updateVisibility, { passive: true });
+  updateVisibility();
 }
 
 function renderCharacterDetail(characters) {

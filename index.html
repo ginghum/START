@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="オリジナルストーリー『マジカルカース帝国国立高等学校』のキャラクター名鑑">
   <title>カス高 キャラクター名鑑</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js?v=image-cache-v1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=catalog-filter-v1">
+  <script src="app.js?v=catalog-filter-v1" defer></script>
 </head>
 <body data-page="home">
   <main class="home-shell">
@@ -16,9 +16,52 @@
       <p class="lead">オリジナルストーリー「マジカルカース帝国国立高等学校」の主要キャラクター紹介サイト。<span id="character-count">キャラクターを読み込んでいます。</span></p>
     </section>
 
+    <section class="catalog-tools" aria-labelledby="filter-heading">
+      <div class="filter-heading-row">
+        <div>
+          <p class="eyebrow">CHARACTER FILTER</p>
+          <h2 id="filter-heading">キャラクターを絞り込む</h2>
+        </div>
+        <button id="reset-filters" class="reset-filters" type="button">条件を解除</button>
+      </div>
+
+      <div class="filter-grid">
+        <label class="filter-field">
+          <span>Grade（ランク）</span>
+          <select id="grade-filter">
+            <option value="">すべてのGrade</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>所属サークル</span>
+          <select id="club-filter">
+            <option value="">すべての所属</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>勢力</span>
+          <select id="faction-filter">
+            <option value="">すべての勢力</option>
+            <option value="student-council">生徒会</option>
+            <option value="anti-council">反生徒会</option>
+            <option value="resistance">レジスタンス</option>
+          </select>
+        </label>
+      </div>
+
+      <p id="filter-result" class="filter-result" aria-live="polite"></p>
+    </section>
+
     <section id="character-grid" class="character-grid" aria-label="キャラクター一覧" aria-live="polite">
       <p class="loading-message">キャラクターを読み込んでいます。</p>
     </section>
   </main>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="ページの先頭へ戻る">
+    <span aria-hidden="true">↑</span>
+    <span>上へ戻る</span>
+  </button>
 </body>
 </html>
