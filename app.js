@@ -133,10 +133,18 @@ function addOptions(select, values, labelFor = (value) => value) {
 
 function characterFactions(character) {
   const role = [factValue(character, "立場"), factValue(character, "役職")].join("／");
+  const roleTitles = role
+    .split(/[／・]/)
+    .map((title) => title.trim())
+    .filter(Boolean);
   const factions = [];
 
   if (role.includes("反生徒会")) factions.push("anti-council");
-  else if (role.includes("生徒会")) factions.push("student-council");
+  else if (
+    roleTitles.some((title) => /^生徒会(?:役員|長代理|長|副会長)?$/.test(title))
+  ) {
+    factions.push("student-council");
+  }
 
   if (role.includes("パシフィスタ") || role.includes("レジスタンス")) {
     factions.push("resistance");
