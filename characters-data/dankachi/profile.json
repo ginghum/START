@@ -13,7 +13,6 @@
     { "label": "性別", "value": "男" },
     { "label": "Grade", "value": "1" },
     { "label": "所属", "value": "建設サークル" },
-    { "label": "立場", "value": "下っ端／生徒会傘下" },
     { "label": "能力", "value": "どんな道具も使いこなす" }
   ],
   "bio": [

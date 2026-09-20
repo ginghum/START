@@ -13,7 +13,7 @@
     { "label": "性別", "value": "男" },
     { "label": "Grade", "value": "4" },
     { "label": "所属", "value": "美術サークル" },
-    { "label": "立場", "value": "副部長／ベレーの側近" },
+    { "label": "立場", "value": "美術サークル副部長" },
     { "label": "能力", "value": "反射するバリアを張る" }
   ],
   "bio": [
