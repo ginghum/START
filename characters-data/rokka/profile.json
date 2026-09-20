@@ -13,7 +13,6 @@
     { "label": "性別", "value": "男" },
     { "label": "Grade", "value": "1" },
     { "label": "所属", "value": "自由サークル" },
-    { "label": "立場", "value": "自由サークル部員／元不良サークル" },
     { "label": "能力", "value": "雪を作り出す" }
   ],
   "bio": [

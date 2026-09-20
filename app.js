@@ -132,6 +132,12 @@ function addOptions(select, values, labelFor = (value) => value) {
 }
 
 function characterFactions(character) {
+  if (Array.isArray(character.factions)) {
+    return character.factions.filter((faction) =>
+      ["student-council", "anti-council", "pacifist"].includes(faction)
+    );
+  }
+
   const role = [factValue(character, "立場"), factValue(character, "役職")].join("／");
   const roleTitles = role
     .split(/[／・]/)
@@ -146,8 +152,8 @@ function characterFactions(character) {
     factions.push("student-council");
   }
 
-  if (role.includes("パシフィスタ") || role.includes("レジスタンス")) {
-    factions.push("resistance");
+  if (role.includes("パシフィスタ") || role.includes("平和主義者")) {
+    factions.push("pacifist");
   }
   return factions;
 }

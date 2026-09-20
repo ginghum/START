@@ -14,7 +14,7 @@
     { "label": "性別", "value": "男" },
     { "label": "Grade", "value": "4" },
     { "label": "所属", "value": "コスプレサークル" },
-    { "label": "役職", "value": "コスプレサークル部長" },
+    { "label": "立場", "value": "コスプレサークル部長" },
     { "label": "能力", "value": "物体を変形させる" }
   ],
   "bio": [

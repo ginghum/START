@@ -69,6 +69,18 @@ def validate_record(record: object, expected_id: str | None = None) -> dict:
     if order is not None and (not isinstance(order, int) or isinstance(order, bool)):
         raise ValueError("orderは整数にしてください。")
 
+    factions = record.get("factions")
+    allowed_factions = {"student-council", "anti-council", "pacifist"}
+    if factions is not None:
+        if (
+            not isinstance(factions, list)
+            or len(factions) != len(set(factions))
+            or not all(faction in allowed_factions for faction in factions)
+        ):
+            raise ValueError(
+                "factionsはstudent-council、anti-council、pacifistの重複しない配列にしてください。"
+            )
+
     return record
 
 
