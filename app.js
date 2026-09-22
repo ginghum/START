@@ -211,7 +211,13 @@ function renderCharacterDetail(characters) {
   const facts = element("div", "facts");
   character.facts.forEach(({ label, value }) => {
     const fact = element("div", "fact");
-    fact.append(element("b", "", label), document.createTextNode(value));
+    const factValue = element("span", "fact-value", value);
+    if (label === "能力" && Array.isArray(character.abilityCycle)) {
+      fact.classList.add("fact--ability-cycle");
+      factValue.classList.add("ability-cycle");
+      setupAbilityCycle(factValue, character.abilityCycle);
+    }
+    fact.append(element("b", "", label), factValue);
     facts.append(fact);
   });
   head.append(introduction, facts);
@@ -229,6 +235,34 @@ function renderCharacterDetail(characters) {
   gallery.append(imageGrid);
 
   container.replaceChildren(head, bio, gallery);
+}
+
+function setupAbilityCycle(target, abilities) {
+  const values = abilities.filter(
+    (ability) => typeof ability === "string" && ability.trim()
+  );
+  if (!values.length) return;
+
+  target.textContent = values[0];
+  target.title = values.join(" / ");
+  target.setAttribute("aria-live", "off");
+
+  if (
+    values.length < 2 ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ) {
+    return;
+  }
+
+  let index = 0;
+  window.setInterval(() => {
+    target.classList.add("is-changing");
+    window.setTimeout(() => {
+      index = (index + 1) % values.length;
+      target.textContent = values[index];
+      target.classList.remove("is-changing");
+    }, 180);
+  }, 2200);
 }
 
 function artCard(src, alt, caption, modifier) {
