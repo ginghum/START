@@ -213,7 +213,6 @@ function renderCharacterDetail(characters) {
     const fact = element("div", "fact");
     const factValue = element("span", "fact-value", value);
     if (label === "能力" && Array.isArray(character.abilityCycle)) {
-      fact.classList.add("fact--ability-cycle");
       factValue.classList.add("ability-cycle");
       setupAbilityCycle(factValue, character.abilityCycle);
     }
