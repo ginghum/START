@@ -208,6 +208,25 @@ function renderCharacterDetail(characters) {
   });
   introduction.append(quote);
 
+  if (
+    character.changeTarget &&
+    typeof character.changeTarget.id === "string" &&
+    typeof character.changeTarget.label === "string"
+  ) {
+    const changeLink = element(
+      "a",
+      "character-change",
+      character.changeTarget.label
+    );
+    changeLink.href = `character.html?id=${encodeURIComponent(character.changeTarget.id)}`;
+    const target = characters.find((item) => item.id === character.changeTarget.id);
+    if (target) {
+      changeLink.setAttribute("aria-label", `${target.name}へ切り替える`);
+      changeLink.title = `${target.name}へ切り替える`;
+    }
+    introduction.append(changeLink);
+  }
+
   const facts = element("div", "facts");
   character.facts.forEach(({ label, value }) => {
     const fact = element("div", "fact");
