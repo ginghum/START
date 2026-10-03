@@ -24,6 +24,7 @@ function renderCharacterList(characters) {
   const gradeFilter = document.querySelector("#grade-filter");
   const clubFilter = document.querySelector("#club-filter");
   const factionFilter = document.querySelector("#faction-filter");
+  const genderFilter = document.querySelector("#gender-filter");
   const resetButton = document.querySelector("#reset-filters");
   const result = document.querySelector("#filter-result");
 
@@ -33,34 +34,40 @@ function renderCharacterList(characters) {
   );
   addOptions(gradeFilter, grades, (grade) => `Grade ${grade}`);
   addOptions(clubFilter, clubs);
+  addOptions(genderFilter, uniqueFactValues(characters, "性別"), (gender) =>
+    ({ 男: "男性", 女: "女性" })[gender] ?? gender
+  );
 
   const applyFilters = () => {
     const selectedGrade = gradeFilter.value;
     const selectedClub = clubFilter.value;
     const selectedFaction = factionFilter.value;
+    const selectedGender = genderFilter.value;
     const filtered = characters.filter((character) => {
       return (
         (!selectedGrade || factValue(character, "Grade") === selectedGrade) &&
         (!selectedClub || clubValue(character) === selectedClub) &&
-        (!selectedFaction || characterFactions(character).includes(selectedFaction))
+        (!selectedFaction || characterFactions(character).includes(selectedFaction)) &&
+        (!selectedGender || factValue(character, "性別") === selectedGender)
       );
     });
 
     renderCharacterCards(grid, filtered);
-    const hasFilters = Boolean(selectedGrade || selectedClub || selectedFaction);
+    const hasFilters = Boolean(selectedGrade || selectedClub || selectedFaction || selectedGender);
     result.textContent = hasFilters
       ? `${characters.length}名中 ${filtered.length}名を表示しています。`
       : `全${characters.length}名を表示しています。`;
     resetButton.disabled = !hasFilters;
   };
 
-  [gradeFilter, clubFilter, factionFilter].forEach((filter) => {
+  [gradeFilter, clubFilter, factionFilter, genderFilter].forEach((filter) => {
     filter.addEventListener("change", applyFilters);
   });
   resetButton.addEventListener("click", () => {
     gradeFilter.value = "";
     clubFilter.value = "";
     factionFilter.value = "";
+    genderFilter.value = "";
     applyFilters();
     gradeFilter.focus();
   });
@@ -110,6 +117,7 @@ function uniqueFactValues(characters, label) {
 
 function clubValue(character) {
   const club = factValue(character, "所属");
+  if (club === "アイドルグループ「S.O.Bright」") return "アイドルグループ";
   return club === "未所属" ? "無所属" : club;
 }
 
