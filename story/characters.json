@@ -1,0 +1,2532 @@
+[
+  {
+    "id": "plus",
+    "name": "プラス",
+    "realName": "プラス・ゼロ",
+    "kicker": "FIRST YEAR / GRADE 1 / UNAFFILIATED",
+    "summary": "全員と友達になりたい転校生。学園の底を知っても、その願いを手放さない。",
+    "quotes": [
+      "プラス「……でっけえ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "184cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "無所属"
+      },
+      {
+        "label": "能力",
+        "value": "質量を変化させる"
+      }
+    ],
+    "bio": [
+      "小さな船で島へやってきた、転校前の記憶を持たない青年。学園の全員と友達になることを目標に、最初に声をかけたユージ、同じ寮室のランスと暮らし始める。Gradeの格差も、決闘も、相手の評判も、本人と話す前に距離を置く理由にはならない。",
+      "身体や触れた物の質量を変える能力を持つ。当初は重くする使い方に偏っていたが、ユージの助言、図書館での調査、仲間との練習を通じて、軽くすることや動かす瞬間を選ぶことを覚えていく。ケンカの経験はある一方、知らない能力への対処には苦戦し、勝ったあとにも怪我と課題が残る。",
+      "ユージが指示を拒めるようにヒカルへ挑み、さらに答えを求めてXと決闘する。第21話では、星を失った生徒の行き先と、マイナスが率いる平和主義者の存在を知る。Xの謝罪を受けても危険を押しつけられた怒りは消さず、それでも次に話すことを選ぶ。今のGradeは1。マイナスと自分の過去を確かめる旅は、まだ終わっていない。"
+    ],
+    "images": {
+      "portrait": "../characters-data/plus/portrait.webp?v=32c08e3b39e3",
+      "original": "../characters-data/plus/original.webp?v=cc90eff1d1a9"
+    },
+    "story": {
+      "first": {
+        "id": "prologue",
+        "title": "プロローグ"
+      },
+      "appearances": [
+        {
+          "id": "prologue",
+          "title": "プロローグ"
+        },
+        {
+          "id": "chapter1-episode1",
+          "title": "第1章　第1話　一番遠い朝、最初の一歩"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode3",
+          "title": "第1章　第3話　重い拳、知らない歌"
+        },
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode5",
+          "title": "第1章　第5話　初めての決闘、星の重さ"
+        },
+        {
+          "id": "chapter1-episode6",
+          "title": "第1章　第6話　大丈夫の裏側、眠れない夜"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode13",
+          "title": "第1章　第13話　届かなかった言葉、月明かりの下"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yuji",
+    "name": "ユージ",
+    "realName": "盛岡友児",
+    "kicker": "FIRST YEAR / GRADE 1 / COSPLAY CIRCLE",
+    "summary": "怖くても、自分で選ぶ。プラスの最初の友達であり、寮の仲間。",
+    "quotes": [
+      "ユージ「なんだよ。俺、何もしてねえぞ！」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "175cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "コスプレサークル"
+      },
+      {
+        "label": "能力",
+        "value": "空中でものを弾く"
+      }
+    ],
+    "bio": [
+      "港で道を尋ねられ、転校生プラスを教室へ案内した一年生。ランスとともに同じ寮室で暮らす。Gradeによる待遇差や校則に詳しく、プラスの勢いに振り回されながらも、生活と能力の両方で具体的な助言をする。空中でものを弾く能力を持つ。",
+      "コスプレサークルでは、部長ヒカルに気に入られたことで、望まない衣装や要求を断れずにいた。ヒカルとの決闘にも敗れ、傷と恐怖を抱える。その後プラスとランスが賭けた決闘によって、サークル開設時の目的を満たせば、それを超える指示を拒否できる条件が成立する。",
+      "怖さはすぐには消えない。それでも自分で衣装を選び、活動へ出ると口にできるようになる。X戦へ向かうプラスにも、能力を言葉だけで決めつけないよう忠告し、練習と記録を支える。寮では遠慮なく文句を言い、必要なときには隣にいる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/yuji/portrait.webp?v=1f74c6efde51",
+      "original": "../characters-data/yuji/original.webp?v=39f19e689df0"
+    },
+    "story": {
+      "first": {
+        "id": "prologue",
+        "title": "プロローグ"
+      },
+      "appearances": [
+        {
+          "id": "prologue",
+          "title": "プロローグ"
+        },
+        {
+          "id": "chapter1-episode1",
+          "title": "第1章　第1話　一番遠い朝、最初の一歩"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode3",
+          "title": "第1章　第3話　重い拳、知らない歌"
+        },
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode6",
+          "title": "第1章　第6話　大丈夫の裏側、眠れない夜"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode13",
+          "title": "第1章　第13話　届かなかった言葉、月明かりの下"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lance",
+    "name": "ランス",
+    "realName": "ジェイル・アルムダイン",
+    "kicker": "FIRST YEAR / GRADE 1 / OTAKU CIRCLE",
+    "summary": "勝てる力と、渡してしまう星。友達を支える、金属使いの同室者。",
+    "quotes": [
+      "ランス「おせえよ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "169cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "オタクサークル"
+      },
+      {
+        "label": "能力",
+        "value": "金属を生成する"
+      }
+    ],
+    "bio": [
+      "金属を生成する能力を持つ一年生。プラス、ユージと同じ寮室に暮らし、武器の扱いや戦い方では頼りになる。決闘で勝てる実力がありながらGrade 1にいる背景には、ゆきめろへ星を渡すための、わざと負ける決闘がある。一般生徒は決闘を介さず星を譲渡できない。",
+      "オタクサークルに所属し、ゆきめろに強く惹かれている。彼女を囲む活動を問題にした部長コバルと衝突し、親衛隊の星も預けた決闘へ進む。しかし戦いの結果だけでは、ゆきめろの気持ちも、自分が何を見ていたのかという問題も片づかなかった。",
+      "失意を抱えて寮へ戻ったあとも、プラスとユージとの生活は続く。ヒカル戦では星を賭け、X戦では練習と観戦で支える。気持ちを説明するのは得意ではないが、怪我をした友達を支える手と、休めと言う声はためらわずに出す。"
+    ],
+    "images": {
+      "portrait": "../characters-data/lance/portrait.webp?v=47b7062ac9c1",
+      "original": "../characters-data/lance/original.webp?v=6d523236e79d"
+    },
+    "story": {
+      "first": {
+        "id": "prologue",
+        "title": "プロローグ"
+      },
+      "appearances": [
+        {
+          "id": "prologue",
+          "title": "プロローグ"
+        },
+        {
+          "id": "chapter1-episode1",
+          "title": "第1章　第1話　一番遠い朝、最初の一歩"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode3",
+          "title": "第1章　第3話　重い拳、知らない歌"
+        },
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode6",
+          "title": "第1章　第6話　大丈夫の裏側、眠れない夜"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode13",
+          "title": "第1章　第13話　届かなかった言葉、月明かりの下"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "x",
+    "name": "X",
+    "realName": "ゼクサー・リカルド",
+    "kicker": "SECOND YEAR / GRADE 5 / STUDENT COUNCIL",
+    "summary": "天才であり続けようとした部長。凍らせた過去の前で、もう一度人の声を聞く。",
+    "quotes": [
+      "X「――手帳を閉じたまえ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "180cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "勉強サークル"
+      },
+      {
+        "label": "立場",
+        "value": "勉強サークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "低温と高温を操る"
+      }
+    ],
+    "bio": [
+      "勉強サークル部長と生徒会役員を兼ねる二年生。低温と高温を操り、勉学だけでなく格闘にも秀でる。食堂での無許可の攻撃を止めた一方、初対面のプラスには厳しく接した。教える場面では答えを代わりに書かず、相手が自分で考えるまで待つ。幼馴染のルサイは、その忙しさと気難しさを身近で支える。",
+      "かつて仲間から預かった星も合わせ、150個を賭けて副会長イトグチへ挑み、敗北した。星を失った部員たちの末路を目撃し、自分とルサイだけが救われた記憶を抱えている。質量を変えるプラスの姿に、その場で見た怪物を重ねてしまい、拒絶と警戒を強めた。",
+      "プラスとの決闘では冷気から高温へ切り替え、自身にも負荷を負う。ルサイと部員の声を聞きながら戦うが、最後は敗れる。第21話で約束した情報を開示し、事情を知らないプラスに命の危険を押しつけたことも謝罪した。恐怖が消えたわけではないが、目の前の彼と怪物を同一視しないと約束する。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/x/portrait.webp?v=d233d17a9364",
+      "original": "../characters-data/x/original.webp?v=5213851d8991"
+    },
+    "story": {
+      "first": {
+        "id": "prologue",
+        "title": "プロローグ"
+      },
+      "appearances": [
+        {
+          "id": "prologue",
+          "title": "プロローグ"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        },
+        {
+          "id": "extra3",
+          "title": "おまけ3　勝った相手、帰らない客"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yaoi",
+    "name": "ヤオイ",
+    "realName": "八百田いよ",
+    "kicker": "SECOND YEAR / GRADE 5 / FUJOSHI CIRCLE PRESIDENT",
+    "summary": "勝った人の顔より、まだ隣へ来られる余地を見る観客。",
+    "quotes": [
+      "ヤオイ「いいですよ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "155cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "腐女子サークル"
+      },
+      {
+        "label": "立場",
+        "value": "腐女子サークル部長"
+      },
+      {
+        "label": "能力",
+        "value": "自然と化す"
+      }
+    ],
+    "bio": [
+      "腐女子サークル部長。プラスが来た日のコロシアムにも姿を見せ、のちにオジョーと一緒にヒカル戦とX戦を観戦する。整った勝ち方より、崩れても踏み込み、友達のために勝ったプラスの姿を面白がった。",
+      "おまけ3では、冷気で展開を止められてXに敗れた数日後、彼の部室へ遊びに来る。髪を見てワカメくんと呼び、おやつを食べ、感想戦を聞き、結局は残してきた原稿まで進める。自然へ姿を変える能力の使い方も、その決闘で描かれる。",
+      "オジョーとは一年生の頃からの知り合い。難しい顔をした相手を見ると話しかけたくなるが、事情をすべて話させようとはしない。Xの警戒を消そうと説くより、また来るという関わり方を選ぶ。"
+    ],
+    "images": {
+      "portrait": "../characters-data/yaoi/portrait.webp?v=093ff9f25591",
+      "original": "../characters-data/yaoi/original.webp?v=c0b0075a92e1"
+    },
+    "story": {
+      "first": {
+        "id": "prologue",
+        "title": "プロローグ"
+      },
+      "appearances": [
+        {
+          "id": "prologue",
+          "title": "プロローグ"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "extra3",
+          "title": "おまけ3　勝った相手、帰らない客"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tsukuri",
+    "name": "ツクリ",
+    "realName": "ツクリ・ハラペーニョ",
+    "kicker": "SECOND YEAR / GRADE 1 / STUDY CIRCLE",
+    "summary": "答えを渡す前に、つまずいた場所を一緒に探す先輩。",
+    "quotes": [
+      "ツクリ「ドーマちゃん、こっち向かなくていいから！　紙！　紙が先！」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "157cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "勉強サークル"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "プラスたちが教室で挨拶した、勉強サークル所属の二年生。話しやすい雰囲気で迎え、ドーマとともに新しい学園生活の接点となる。",
+      "試験勉強で部室を訪れたプラスとランスには、まず何を求める問題なのかを聞き、短い式から考え方をつなぎ直す。答えを見たことと、自力で解けることを分けて確かめる教え方が印象的。Xが不在のときも、できる範囲を見極めて力を貸し、X戦では仲間と客席から声を送る。"
+    ],
+    "images": {
+      "portrait": "../characters-data/tsukuri/portrait.webp?v=105060fe337d",
+      "original": "../characters-data/tsukuri/original.webp?v=d0629be634f2"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode1",
+        "title": "第1章　第1話　一番遠い朝、最初の一歩"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode1",
+          "title": "第1章　第1話　一番遠い朝、最初の一歩"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "doma",
+    "name": "ドーマ",
+    "realName": "ドーマ・ブレーン",
+    "kicker": "SECOND YEAR / GRADE 1 / STUDY CIRCLE",
+    "summary": "静かな言葉と、正確な確認。勉強サークルの落ち着いた案内役。",
+    "quotes": [
+      "ドーマ「ご心配なく。現在、重心を調整しています」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "160cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "勉強サークル"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "ツクリとともにプラスたちが教室で挨拶した二年生。勉強サークルに所属し、言葉を区切るような独特の話し方をする。",
+      "部室を訪ねたプラスとランスの手元の教材を見て、勉強に来たことを察する。席を空け、計算や問題文の条件を確かめる役を担う。派手に励ますより、今ある紙と説明を落ち着いて扱う。Xとの決闘にもツクリと連れ立って訪れ、プラスの歩みを見守る。"
+    ],
+    "images": {
+      "portrait": "../characters-data/doma/portrait.webp?v=2330a8f269ff",
+      "original": "../characters-data/doma/original.webp?v=26b7f5619dbd"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode1",
+        "title": "第1章　第1話　一番遠い朝、最初の一歩"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode1",
+          "title": "第1章　第1話　一番遠い朝、最初の一歩"
+        },
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lusai",
+    "name": "ルサイ",
+    "realName": "ルサイ・サイレン",
+    "kicker": "SECOND YEAR / GRADE 1 / STUDY CIRCLE VICE PRESIDENT",
+    "summary": "おやつとノートと、届く声。Xの隣に残り続けた幼馴染。",
+    "quotes": [
+      "ルサイ「見学の方ですね？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "176cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "勉強サークル"
+      },
+      {
+        "label": "立場",
+        "value": "勉強サークル副部長"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "勉強サークル副部長。白髪と眼鏡が特徴で、来客を穏やかに迎え、部員に手作りの菓子を用意する。Xとは学園へ来る前からの幼馴染であり、仕事を続けすぎる彼を休憩へ誘い、言葉の厳しさだけでは回らない部室を支える。",
+      "古い教材には、サークルを始めた頃の仲間たちと過ごした時間が残っている。Xがイトグチに敗れた際には手元に星を残しており、運ばれるXを助けようとした。その先で、星を失った仲間たちの行き先を一緒に目撃している。",
+      "プラスへ練習用のノートを貸し、Xの拒絶の理由も急いで決めつけない。決闘では部員たちと声を送り、倒れそうなXを現実へ呼び戻す。第21話でも、学びに戻ってきたプラスを部室へ迎える。"
+    ],
+    "images": {
+      "portrait": "../characters-data/lusai/portrait.webp?v=8410168f4ae9",
+      "original": "../characters-data/lusai/original.webp?v=08dc7df98edf"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode2",
+        "title": "第1章　第2話　不合格な午後、知らない顔"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        },
+        {
+          "id": "extra3",
+          "title": "おまけ3　勝った相手、帰らない客"
+        }
+      ]
+    }
+  },
+  {
+    "id": "baroo",
+    "name": "バルー",
+    "realName": "バルー・バノーレ",
+    "kicker": "FIRST YEAR / GRADE 1 / NEWSPAPER CLUB",
+    "summary": "顔と名前、その人の好きなものまで。転校生を新聞部へつなぐ一年生。",
+    "quotes": [
+      "バルー「やっほ〜☆　新聞買ってね〜！」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "151cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "新聞部"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "新聞部の一年生。学園の情報を集めながら人へ気軽に話しかけ、見学中のプラスとも知り合う。部室への案内役となり、ユーヒたちとの取材のきっかけを作った。",
+      "知り合いを増やすことに慣れており、名前の次には顔、仲のよい相手、好きなものや怒ることを覚えるとプラスに話す。マイナスの強さを知る一方、姓が同じというだけで関係を確定はしない。新聞部では、記事にしたいユーヒと商談を始めるダイの間にも、軽い調子で口を挟む。"
+    ],
+    "images": {
+      "portrait": "../characters-data/baroo/portrait.webp?v=6b4d565d6f43",
+      "original": "../characters-data/baroo/original.webp?v=e4f8de7aab0a"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode2",
+        "title": "第1章　第2話　不合格な午後、知らない顔"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hikaru",
+    "name": "ヒカル",
+    "realName": "ヒカル・オリマー",
+    "kicker": "THIRD YEAR / GRADE 4 / COSPLAY CIRCLE PRESIDENT",
+    "summary": "自分の美しさを押しつけた部長。ユージの拒否に、初めて手を止める。",
+    "quotes": [
+      "ヒカル「どこへ行くんだい？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "184cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "4"
+      },
+      {
+        "label": "所属",
+        "value": "コスプレサークル"
+      },
+      {
+        "label": "立場",
+        "value": "コスプレサークル部長"
+      },
+      {
+        "label": "能力",
+        "value": "物体を変形させる"
+      }
+    ],
+    "bio": [
+      "コスプレサークルの部長。美しいと認めたものを自分の理想に合わせようとし、プラスを見学で不合格とした。物体を変形させる能力を衣装や武器へ使う。特にユージを気に入り、彼が望まない衣装や振る舞いも要求していた。",
+      "ユージとの決闘では痛めつけながら支配を強めるが、続くプラスとの決闘に敗れる。プラスとランスが賭けた条件により、サークルの目的を満たした活動を行うユージには、それ以上の指示を拒否する権利が成立した。",
+      "納得して優しくなったわけではない。だが、契約と訴えの窓口がある以上、拒否を力で取り消すことはできなくなる。旧校舎ではグモンやオーガとの昔の関係も垣間見える。STORY版では、将来の昇格前のGrade 4として扱う。"
+    ],
+    "images": {
+      "portrait": "../characters-data/hikaru/portrait.webp?v=11c54d6de9a6",
+      "original": "../characters-data/hikaru/original.webp?v=02e24557a693"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode2",
+        "title": "第1章　第2話　不合格な午後、知らない顔"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode6",
+          "title": "第1章　第6話　大丈夫の裏側、眠れない夜"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yukimero",
+    "name": "ゆきめろ",
+    "realName": "鈴木雪江",
+    "kicker": "THIRD YEAR / GRADE 4 / OTAKU CIRCLE PRINCESS",
+    "summary": "囲まれる可愛さの向こうに、ランスがまだ知らない気持ちがある。",
+    "quotes": [
+      "ゆきめろ「……そうだよぉ。めろに、何か用？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "146cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "4"
+      },
+      {
+        "label": "所属",
+        "value": "オタクサークル"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "オタクサークルに所属する三年生。アニメを意識した衣装やピンクのリボンを身につけ、部員たちから可愛いと声をかけられる。ランスもその一人であり、彼女へ星を渡すためにわざと負ける決闘を行っていた。",
+      "親衛隊の活動が作品鑑賞より自分を囲むことへ傾き、部長コバルとの対立の中心になる。ランスが彼女のために戦っても、それだけで本人の恋心や考えが彼へ向くわけではない。やり取りを通じて、ランスが見ていた可愛さと、彼女自身が望むものの距離が浮かび上がる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/yukimero/portrait.webp?v=871f58093edd",
+      "original": "../characters-data/yukimero/original.webp?v=612eb9e81b37"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode2",
+        "title": "第1章　第2話　不合格な午後、知らない顔"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode2",
+          "title": "第1章　第2話　不合格な午後、知らない顔"
+        },
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode13",
+          "title": "第1章　第13話　届かなかった言葉、月明かりの下"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "konke",
+    "name": "コンケ",
+    "realName": "コンケ・ケンコ",
+    "kicker": "FIRST YEAR / GRADE 3 / DELINQUENT CIRCLE",
+    "summary": "威勢のよさと、隠せない気弱さ。負けた相手の隣へ戻ってくる不良。",
+    "quotes": [
+      "コンケ「んん〜？　弱そうな奴がいるな！　オイオイ、ココが何処だか分かってんのか？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "177cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "3"
+      },
+      {
+        "label": "所属",
+        "value": "不良サークル"
+      },
+      {
+        "label": "能力",
+        "value": "毒を生成する"
+      }
+    ],
+    "bio": [
+      "不良サークルの一年生で、毒を生成する能力を持つ。パンを奪うなどの振る舞いでプラスと衝突し、決闘で敗れた。Gradeは3だが、上級生の前では強気な顔を保ちきれず、格上には露骨に緊張する。",
+      "旧校舎へプラスを連れていく役も担い、グモンたちの変化を近くで見る。奪ったパンについては相手を見つけて支払ったと報告する。やがて寮での勉強や能力の練習、X戦の応援へ加わり、友達の輪に居場所を持つようになる。",
+      "おまけ2では、使い走りとして一人で荷物を運ばされる姿と、グモンやオーガに食事を気にかけられる姿が描かれる。サークルが急に優しくなるわけではない。それでも、一人で背負わなくてよい仕事と、帰る前に顔を出す場所が増えていく。"
+    ],
+    "images": {
+      "portrait": "../characters-data/konke/portrait.webp?v=af251fdc4fd2",
+      "original": "../characters-data/konke/original.webp?v=b05f192ed0da"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode3",
+        "title": "第1章　第3話　重い拳、知らない歌"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode3",
+          "title": "第1章　第3話　重い拳、知らない歌"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode13",
+          "title": "第1章　第13話　届かなかった言葉、月明かりの下"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        },
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode16",
+          "title": "第1章　第16話　残されたノート、知らない名前"
+        },
+        {
+          "id": "chapter1-episode17",
+          "title": "第1章　第17話　伸ばした手、熱を帯びる約束"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        },
+        {
+          "id": "extra2",
+          "title": "おまけ2　怖い顔、温かい食卓"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yuhi",
+    "name": "ユーヒ",
+    "realName": "夕陽みどり",
+    "kicker": "SECOND YEAR / GRADE 3 / NEWSPAPER CLUB",
+    "summary": "記事にしたい転校生と、売れない正論。夕陽新聞の編集長。",
+    "quotes": [
+      "ユーヒ「プラスくんっすね！」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "170cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "3"
+      },
+      {
+        "label": "所属",
+        "value": "新聞部"
+      },
+      {
+        "label": "立場",
+        "value": "新聞部部長（編集長）"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "新聞部部長で、夕陽新聞の編集長。珍しい転校生プラスを見つけると、さっそく取材を申し込む。景気のよい見出しを思いつく勢いがあり、話を膨らませるたびにチックの確認が入る。",
+      "ゼロ家の姓とマイナスの情報をプラスへ伝えるが、取材で聞いたことを何でも記事にするわけではない。ヒカル戦のあとにも勝利を記事にしようとする。おまけ1では、必要な事実を伝える紙面と、読者が欲しがる秘密、売上の間で揺れる新聞部の顔として描かれる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/yuhi/portrait.webp?v=5033de23f6a5",
+      "original": "../characters-data/yuhi/original.webp?v=5ad45afcb16c"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode4",
+        "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        }
+      ]
+    }
+  },
+  {
+    "id": "chick",
+    "name": "チック",
+    "realName": "シャーク・チック",
+    "kicker": "SECOND YEAR / GRADE 1 / NEWSPAPER CLUB",
+    "summary": "見出しより先に、事実を確かめる。新聞部の静かな編集者。",
+    "quotes": [
+      "チック「そこまでしなくて大丈夫ですよ。……ゴホッ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "176cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "新聞部"
+      },
+      {
+        "label": "立場",
+        "value": "新聞部副部長・編集者"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "新聞部副部長で、原稿の編集を担う二年生。咳を挟みながらも、人数や証言の違いを見逃さず、ユーヒの勢いを訂正する。",
+      "プラスの記憶や家族の話が出た際には、それが記事に載せるための話なのかを先に確認した。知らない続柄を断定せず、決闘の条件と結果も書き分ける。おまけ1でも、売れる情報を選ぶことと、事実をねじ曲げないことの間に、編集者として線を引こうとする。"
+    ],
+    "images": {
+      "portrait": "../characters-data/chick/portrait.webp?v=c99fc6cd2f40",
+      "original": "../characters-data/chick/original.webp?v=2007d141ece9"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode4",
+        "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        }
+      ]
+    }
+  },
+  {
+    "id": "morpheus",
+    "name": "モルペウス",
+    "realName": "モルズ・ヒュプノス",
+    "kicker": "SECOND YEAR / GRADE 1 / NEWSPAPER CLUB",
+    "summary": "夢を見せられても、誰かの記憶の答えまでは作れない。",
+    "quotes": [
+      "モルペウス「……ここ、座れるよ。今、空けるね」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "165cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "新聞部"
+      },
+      {
+        "label": "能力",
+        "value": "夢を見せる"
+      }
+    ],
+    "bio": [
+      "新聞部所属の二年生。眠たげな調子で話し、部室を訪ねたプラスに席を空ける。夢を見せる能力を持つ。",
+      "プラスが転校前に見た夢を話したときには、楽しかったかを尋ね、忘れたくない夢があると語る。しかし自分の能力と、プラスの見たものの正体を確かめることは別だとも伝えた。穏やかな言葉の中でも、分からないことを分かるとは言わない。新聞部の日常と、おまけ1に登場する。"
+    ],
+    "images": {
+      "portrait": "../characters-data/morpheus/portrait.webp?v=f566077d70de",
+      "original": "../characters-data/morpheus/original.webp?v=238d1b69275b"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode4",
+        "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dai",
+    "name": "ダイ",
+    "realName": "九代大",
+    "kicker": "FIRST YEAR / GRADE 1 / NEWSPAPER CLUB",
+    "summary": "礼儀正しい商談と、実戦で変わる景色。プラスの初決闘の相手。",
+    "quotes": [
+      "ダイ「いらっしゃいませ。見学の方ですね。お荷物はこちらへどうぞ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "一年生"
+      },
+      {
+        "label": "身長",
+        "value": "182cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "1"
+      },
+      {
+        "label": "所属",
+        "value": "新聞部"
+      },
+      {
+        "label": "能力",
+        "value": "マーク地点への瞬間移動"
+      }
+    ],
+    "bio": [
+      "新聞部の一年生。客への案内は丁寧で、一般紙面に加えて会員向けの情報も勧めるなど、商談に手慣れている。",
+      "プラスがコロシアムで行った最初の正式な決闘の相手。マークした地点へ瞬間移動する能力を使い、単純に正面から殴るだけでは届かない戦いを見せた。取材相手と対戦相手の両方としてプラスと関わり、その後も新聞部や練習の場で顔を合わせる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/dai/portrait.webp?v=414c245e6ee6",
+      "original": "../characters-data/dai/original.webp?v=068bb89aaa4a"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode4",
+        "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode4",
+          "title": "第1章　第4話　俺より先に歩く名前、その向こう"
+        },
+        {
+          "id": "chapter1-episode5",
+          "title": "第1章　第5話　初めての決闘、星の重さ"
+        },
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "extra1",
+          "title": "おまけ1　売れない正論、売れる秘密"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sunny",
+    "name": "サニー",
+    "realName": "サニー・レティシア",
+    "kicker": "SECOND YEAR / GRADE 3 / DUEL COMMITTEE",
+    "summary": "勝者の宣告だけでなく、条件と中止の線を確かめる決闘委員。",
+    "quotes": [
+      "サニー「こんにちは。対戦のお申し込みですか？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "159cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "3"
+      },
+      {
+        "label": "所属",
+        "value": "決闘委員会"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "決闘委員会所属の二年生。プラスの最初の正式な決闘で審判を務め、コロシアムでの試合を進行する。",
+      "ヒカル戦では、契約で何を賭けているのかを確認し、戦闘の経過を見守り、続行不能となったヒカルを止めてプラスの勝利を宣告した。ランスとコバルの決闘にも関わる。戦う生徒の意図と、委員会が記録する条件や決着を、混同せず扱う立場にいる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/sunny/portrait.webp?v=8b5166286051",
+      "original": "../characters-data/sunny/original.webp?v=dc3a61788007"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode5",
+        "title": "第1章　第5話　初めての決闘、星の重さ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode5",
+          "title": "第1章　第5話　初めての決闘、星の重さ"
+        },
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ojo",
+    "name": "オジョー",
+    "realName": "オジョーニア・ブロンディー",
+    "kicker": "SECOND YEAR / GRADE 5 / LADY CIRCLE",
+    "summary": "勝てば終わりではない。美しい勝利を求める、厳しい観戦者。",
+    "quotes": [
+      "オジョー「……どこがですの」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "154cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "令嬢サークル"
+      },
+      {
+        "label": "立場",
+        "value": "令嬢サークル部長"
+      },
+      {
+        "label": "能力",
+        "value": "爆発弾を操る"
+      }
+    ],
+    "bio": [
+      "令嬢サークル部長。ヤオイとともにプラスの決闘を見守る。ヒカルに勝ったプラスの武器の扱い、身のこなし、最後の姿勢を、美しいとは認めなかった。",
+      "Xとの戦いでも客席から勝負の運びを見ている。おまけ3の一年生時代の場面では、爆発弾を使って勝ちながら、最後の狙いのずれを気にしていた。勝敗とは別に自分の基準がある。",
+      "ヤオイに馴れ馴れしく呼ばれることには文句を言い続けるが、原稿を残して出かけた彼女を探し、Xの部室へ迎えに来る。うるささを嫌がる言葉の隣に、長い付き合いによる理解がある。"
+    ],
+    "images": {
+      "portrait": "../characters-data/ojo/portrait.webp?v=2572c96ce2de",
+      "original": "../characters-data/ojo/original.webp?v=2929f9cecd2b"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode7",
+        "title": "第1章　第7話　その笑顔は、誰のもの"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode7",
+          "title": "第1章　第7話　その笑顔は、誰のもの"
+        },
+        {
+          "id": "chapter1-episode18",
+          "title": "第1章　第18話　凍った記録、十五秒の手応え"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "extra3",
+          "title": "おまけ3　勝った相手、帰らない客"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oga",
+    "name": "オーガ",
+    "realName": "王ヶ崎卵太郎",
+    "kicker": "THIRD YEAR / GRADE 4 / DELINQUENT CIRCLE",
+    "summary": "怖い扉の向こうにある、変な紅茶と温かい食事。",
+    "quotes": [
+      "オーガ「……お前ら、何してる」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "197cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "4"
+      },
+      {
+        "label": "所属",
+        "value": "不良サークル"
+      },
+      {
+        "label": "立場",
+        "value": "不良サークル副部長"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "不良サークル副部長。巨大な体格と迫力を持ち、旧校舎へ来たプラスを部長グモンのもとへ通す。近づくだけでコンケが緊張するほどだが、部屋では色の妙な紅茶を出し、部員の様子を見ている。",
+      "グモンと長く付き合っており、ヒカルやコバルの不良時代についても知る立場。おまけ2では、コンケへ料理を運ばせ、食べた量と感想を確かめる。一人に無理な仕事を押しつけず、壊した本人に椅子を直させるなど、厳しさを働かせる向きが見えてくる。"
+    ],
+    "images": {
+      "portrait": "../characters-data/oga/portrait.webp?v=8d12cae842d8",
+      "original": "../characters-data/oga/original.webp?v=4466e9464e17"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode8",
+        "title": "第1章　第8話　旧校舎の向こう、届かない声"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode8",
+          "title": "第1章　第8話　旧校舎の向こう、届かない声"
+        },
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "extra2",
+          "title": "おまけ2　怖い顔、温かい食卓"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gumon",
+    "name": "グモン",
+    "realName": "俺田愚門",
+    "kicker": "THIRD YEAR / GRADE 5 / DELINQUENT CIRCLE",
+    "summary": "もう一度、目の前の誰かを守るために歩き出す不良部長。",
+    "quotes": [
+      "グモン「入れ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "189cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "不良サークル"
+      },
+      {
+        "label": "立場",
+        "value": "不良サークル部長／平和主義者"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "不良サークル部長。Grade 5の強さと大きな拳を持ち、旧校舎でプラスと会う。以前はヒーローになれると思っていたが、座ったまま見過ごす時間を経て、学園で起きる横暴を自分で止めに歩き出す。",
+      "コンケを使い走りにする一方、買い物には代金を渡し、食事を抜いていないか気にする。オーガとは長い付き合いがあり、ヒカルやコバルにも昔からの関係がある。マイナスに守る行動を褒められると、不良の頂点らしい余裕が崩れる。",
+      "第21話では、昔から平和主義者の一員だとXが明かす。最近の行動を、プラスも違う意味で捉え直すことになる。強さを持つことと、それを誰のために使うかが、物語で問い直される人物。"
+    ],
+    "factions": [
+      "pacifist"
+    ],
+    "images": {
+      "portrait": "../characters-data/gumon/portrait.webp?v=cfe9c55a8bc5",
+      "original": "../characters-data/gumon/original.webp?v=dee257df4411"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode9",
+        "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode9",
+          "title": "第1章　第9話　憧れた背中、カラフルな紅茶"
+        },
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        },
+        {
+          "id": "extra2",
+          "title": "おまけ2　怖い顔、温かい食卓"
+        }
+      ]
+    }
+  },
+  {
+    "id": "minus",
+    "name": "マイナス",
+    "realName": "マイナス・ゼロ",
+    "kicker": "THIRD YEAR / GRADE 5 / PACIFISTA LEADER",
+    "summary": "同じ姓、同じ能力。プラスが会いに行きたい、平和主義者のリーダー。",
+    "quotes": [
+      "マイナス「……グモン」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "175cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "未所属"
+      },
+      {
+        "label": "能力",
+        "value": "質量を変化させる"
+      },
+      {
+        "label": "立場",
+        "value": "平和主義者リーダー"
+      }
+    ],
+    "bio": [
+      "新聞部の取材でプラスへ伝えられた、もう一人のゼロ。三年生でGrade 5、質量を変化させる能力を持つ。姓と能力が同じでも、新聞部はその場で続柄を断定しなかった。",
+      "本人は第10話の中庭に登場する。本を手にグモンの隣へ座り、横暴を止めた彼に、またヒーローのようなことをしていると声をかけた。プラスとはまだ直接話していない。",
+      "第21話で、旧校舎の地下を拠点に、生徒会長メイジから学園を守ろうとする平和主義者のリーダーだと明かされる。生徒会内ではプラスの姉として扱われ、章末にはプラス自身も姉と歩いた幼い頃の記憶に触れる。ただし本人との確認と、記憶を失った経緯の解明は、これからである。"
+    ],
+    "factions": [
+      "pacifist"
+    ],
+    "images": {
+      "portrait": "../characters-data/minus/portrait.webp?v=a428be54e74c",
+      "original": "../characters-data/minus/original.webp?v=d3c8ef42887b"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode10",
+        "title": "第1章　第10話　割れた鏡と、動き出す背中"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode10",
+          "title": "第1章　第10話　割れた鏡と、動き出す背中"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kobal",
+    "name": "コバル",
+    "realName": "ボンレス・モヤシ",
+    "kicker": "THIRD YEAR / GRADE 4 / OTAKU CIRCLE PRESIDENT",
+    "summary": "好きな作品を語る場所を守りたい。その線引きが、ランスと衝突する。",
+    "quotes": [
+      "コバル「ありがとう、ランスくん。そこ、少し右へお願いね〜」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "176cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "4"
+      },
+      {
+        "label": "所属",
+        "value": "オタクサークル"
+      },
+      {
+        "label": "立場",
+        "value": "オタクサークル部長"
+      },
+      {
+        "label": "能力",
+        "value": "チャージパンチを放つ"
+      }
+    ],
+    "bio": [
+      "オタクサークル部長。水色の髪と眼鏡、ふくよかな体格が特徴。知っている作品も知らない作品も一緒に楽しめる場所を作り、上映前の振り返りや感想会を用意する。",
+      "ゆきめろを囲む活動が作品鑑賞より優先されるようになり、サークルの目的を理由に退部も検討する。部員数と運営の問題も含めた説明は、ゆきめろを守りたいランスの怒りを招いた。",
+      "決闘では溜めた力を拳へ乗せる攻撃を使い、Grade 4の実力を見せる。元不良サークルの幹部であることもコンケから語られる。勝負を経たあとのやり取りでは、三次元の誰かを好きになる気持ちと、皆で作品を楽しむ場所の両方をどう扱うかが残される。"
+    ],
+    "images": {
+      "portrait": "../characters-data/kobal/portrait.webp?v=02d81d8a9d34",
+      "original": "../characters-data/kobal/original.webp?v=3e11e01f22e6"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode11",
+        "title": "第1章　第11話　好きなものの、その隣で"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode11",
+          "title": "第1章　第11話　好きなものの、その隣で"
+        },
+        {
+          "id": "chapter1-episode12",
+          "title": "第1章　第12話　好きなもの、そのために"
+        },
+        {
+          "id": "chapter1-episode14",
+          "title": "第1章　第14話　同じ部屋の、明かり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "titan",
+    "name": "タイタン",
+    "realName": "アルバルク・シュタイン",
+    "kicker": "THIRD YEAR / GRADE 5 / BODYBUILDING CIRCLE PRESIDENT & STUDENT COUNCIL",
+    "summary": "大声の激励と、重い報告に向ける低い声。生徒会の巨漢。",
+    "quotes": [
+      "タイタン「おお！　来たな！」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "220cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "ボディビルサークル"
+      },
+      {
+        "label": "立場",
+        "value": "ボディビルサークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "ボディビルサークル部長で、生徒会役員。第15話の会議では大きな体格と声でXを迎え、休みたい人にも鍛えることを勧めてタナカとセレナにたしなめられる。",
+      "賑やかな態度だけではなく、グモンの動向には声を低くし、本人の行動を確かめる必要があると話す。Xが仕事へ戻るときには肩のこわばりを気にかける。Xの回想にも登場するが、能力や個人の来歴の全体はまだ本編で示されていない。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/titan/portrait.webp?v=08575716c0d3",
+      "original": "../characters-data/titan/original.webp?v=0fdce44e9107"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ashara",
+    "name": "アシャラ",
+    "realName": "アシャラ・シルヴァ",
+    "kicker": "THIRD YEAR / GRADE 5 / SOCCER CLUB",
+    "summary": "書類よりボールに手が伸びる、生徒会のサッカー部長。",
+    "quotes": [
+      "アシャラ「集めた本人が、最後かよ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "186cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "サッカーサークル"
+      },
+      {
+        "label": "立場",
+        "value": "サッカーサークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "サッカーサークル部長で、生徒会役員。第15話の会議では椅子を傾け、足元でボールを転がしている。会議へ毎回来るよう、Xから釘を刺される。",
+      "消耗品や部費の話には自分のサークルの立場から反応し、ミューやジャッジと軽口を交わす。大雑把に聞こえる言い方でも、グモンが動いたという報告には足元のボールを止めた。プラスとはまだ直接会話していない。"
+    ],
+    "images": {
+      "portrait": "../characters-data/ashara/portrait.webp?v=27eb2449d753",
+      "original": "../characters-data/ashara/original.webp?v=a6654724d98d"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "serena",
+    "name": "セレナ",
+    "realName": "セレナ・ミレイヌ",
+    "kicker": "THIRD YEAR / GRADE 5 / HEALTH COMMITTEE / STUDENT COUNCIL",
+    "summary": "資料を整える人にも、休む時間が必要だと伝える保健委員長。",
+    "quotes": [
+      "セレナ「ずいぶん抱えてきたね。試験の方？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "186cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "保健委員会"
+      },
+      {
+        "label": "立場",
+        "value": "保健委員会会長・生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "保健委員会会長で、生徒会役員。第15話の会議へ委員会の報告を持ち寄り、Xが抱えてきた資料の量を気にかける。",
+      "注意書きを読んで分かったつもりになる生徒のため、実習の順番が見える資料を求める。今すぐ全部を書き直そうとするクラリーヌを止め、部室へ戻るXには食べる時間も残すように声をかけた。医療を担う立場の丁寧さが、会議の日常の中に見える。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/serena/portrait.webp?v=b66d63b78620",
+      "original": "../characters-data/serena/original.webp?v=12f3c7bfc7e3"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mu",
+    "name": "ミュー",
+    "realName": "ミューライズ・スターダスト",
+    "kicker": "SECOND YEAR / GRADE 5 / S.O.BRIGHT LEADER & STUDENT COUNCIL",
+    "summary": "忙しい予定と、鋭いひと言。会議でも遠慮しないアイドル。",
+    "quotes": [
+      "ミュー「これ、短い連絡って聞いてんだけど。そんなにあんの？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "150cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "アイドルグループ「S.O.Bright」"
+      },
+      {
+        "label": "立場",
+        "value": "S.O.Brightリーダー／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "アイドルグループS.O.Brightのリーダーで、生徒会役員。第15話の会議では、自分の活動の予定を抱え、余計な話で長引かせないようXへ伝える。",
+      "アシャラとの軽口は辛辣だが、教材更新が変な噂になることを避けるため、必要な説明をクラリーヌにまとめてもらおうとする。帰り際にはアシャラの忘れた申請書も指摘した。プラスの到着を聞いて関心を示すが、本人との直接の接点はまだ描かれていない。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/mu/portrait.webp?v=19716548d4fe",
+      "original": "../characters-data/mu/original.webp?v=c71f3f6210b6"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "clarine",
+    "name": "クラリーヌ",
+    "realName": "クラリーヌ・メイリィ",
+    "kicker": "THIRD YEAR / GRADE 5 / WIND ENSEMBLE PRESIDENT & STUDENT COUNCIL",
+    "summary": "連絡を分かる形へ書き直す、会議の丁寧なまとめ役。",
+    "quotes": [
+      "クラリーヌ「……配布表、先に回しましょうか。皆さん、予定もあると思いますし」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "165cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "吹奏楽サークル"
+      },
+      {
+        "label": "立場",
+        "value": "吹奏楽サークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "吹奏楽サークル部長で、生徒会役員。第15話ではケースを持って会議へ出席し、皆の予定を気にして配布表を先に回すよう提案する。",
+      "教材更新の話では、操作と仕組みの説明を分けるべきかを確認し、伝える順番を紙へ書き込む。必要な箇所をまとめようとする責任感が強く、その場で全部書き直しかけてセレナに止められた。能力や個人的な来歴は、ここまでの本編では未披露。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/clarine/portrait.webp?v=06c5eedef0b0",
+      "original": "../characters-data/clarine/original.webp?v=860d8ac310c5"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "judge",
+    "name": "ジャッジ",
+    "realName": "ジャッジ・リベラ",
+    "kicker": "SECOND YEAR / GRADE 5 / DUEL COMMITTEE",
+    "summary": "契約を通し、決着を記録する。その承認の責任も問われる会長。",
+    "quotes": [
+      "ジャッジ「確認済みのものは、こちらにまとめた。訂正は三枚目だけだ。古い数字を読み上げるなよ」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "152cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "決闘委員会"
+      },
+      {
+        "label": "立場",
+        "value": "決闘委員会会長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "bio": [
+      "決闘委員会会長で、生徒会役員。第15話の会議では古い数字と訂正済みの資料を分け、確認しないまま頷くことを皮肉る。",
+      "プラスとXの決闘では契約を承認し、自ら審判を務める。グレード0の真実を明かすことは校則違反であり、Xが権限で契約を通しても、その責任までは消えないと警告した。決着後には賭けた情報の開示を立ち会って確認する。",
+      "第21話でプラスから、命の危険を知りながら契約を通した責任を問われ、自分が承認したと認める。記録と規則に精通していることは、この学園の処理が公平であることと同義ではない。"
+    ],
+    "images": {
+      "portrait": "../characters-data/judge/portrait.webp?v=895a92618c73",
+      "original": "../characters-data/judge/original.webp?v=74fa59488bd5"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "beret",
+    "name": "ベレー",
+    "realName": "ベレー・ベレッタ",
+    "kicker": "SECOND YEAR / GRADE 5 / ART CLUB PRESIDENT & STUDENT COUNCIL",
+    "summary": "紙の端へ線を引きながら、必要な連絡を受け取る美術部長。",
+    "quotes": [
+      "ベレー「こちらは、このままで大丈夫よ。材料を受け取る日だけ、合わせていただける？」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "152cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "美術サークル"
+      },
+      {
+        "label": "立場",
+        "value": "美術サークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "美術サークル部長で、生徒会役員。第15話の会議に赤いベレー帽で出席し、資料の端へ細い線を引きながら話を聞く。",
+      "材料を受け取る日と担当者を確認し、落ち着いた調子で運営の話に加わる。プラスがマイナスの弟として到着したと聞くと、覚えておくと応じた。柔らかな笑みの向こうにある能力や来歴は、ここまでの本編ではまだ描かれていない。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/beret/portrait.webp?v=0cfacea53735",
+      "original": "../characters-data/beret/original.webp?v=73b40686e662"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tanaka",
+    "name": "タナカ",
+    "realName": "田中聖",
+    "kicker": "SECOND YEAR / GRADE 5 / LIFE CIRCLE PRESIDENT & STUDENT COUNCIL",
+    "summary": "座る場所が必要な人のために。会議でも生活の話をする部長。",
+    "quotes": [
+      "タナカ「あ、ここ。消耗品の分って、人数で増やしていいんだよね」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "二年生"
+      },
+      {
+        "label": "身長",
+        "value": "172cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "生活サークル"
+      },
+      {
+        "label": "立場",
+        "value": "生活サークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "生活サークル部長で、生徒会役員。第15話の会議では、利用者が増えたことに合わせ、掃除とお茶の消耗品を増やせるか確認する。",
+      "座って茶を飲むだけで部費が出るのかと問われても、片づけを行い、座る場所を必要とする人がいると答える。タイタンが鍛錬へ誘う場面でも、休みたい人が来ることを忘れない。プラスの質問の多さにも、来たばかりなら聞きたいことが多いのだろうと受け止める。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/tanaka/portrait.webp?v=6b9fdd3bc215",
+      "original": "../characters-data/tanaka/original.webp?v=917684fb0341"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tsukichiyo",
+    "name": "ツキチヨ",
+    "realName": "月千詠七女",
+    "kicker": "THIRD YEAR / GRADE 5 / NINJA CIRCLE PRESIDENT & STUDENT COUNCIL",
+    "summary": "話を聞く部屋の後ろで、情報の境界を守る忍者。",
+    "quotes": [
+      "ツキチヨ「こちらは、引き続き確かめる」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "170cm"
+      },
+      {
+        "label": "性別",
+        "value": "女"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "忍者サークル"
+      },
+      {
+        "label": "立場",
+        "value": "忍者サークル部長／生徒会役員"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "忍者サークル部長で、生徒会役員。第15話の会議では反生徒会連合の動きを引き続き確認すると伝え、推測と確認済みの事実を分けて報告する立場にいる。",
+      "第21話では、Xがプラスへ情報を開示する部屋に立ち会う。Xのすぐ後ろに立ち、秘密の話が交わされる場所の緊張を保つ。プラスの側からはまだ、その能力や個人的な事情まで見通せる人物ではない。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/tsukichiyo/portrait.webp?v=1b5f65653464",
+      "original": "../characters-data/tsukichiyo/original.webp?v=908a6aba43d0"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode15",
+        "title": "第1章　第15話　解けない問題、冷めないおやつ"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode15",
+          "title": "第1章　第15話　解けない問題、冷めないおやつ"
+        },
+        {
+          "id": "chapter1-episode21",
+          "title": "第1章　第21話　学園の底、変わらない願い"
+        }
+      ]
+    }
+  },
+  {
+    "id": "itoguchi",
+    "name": "イトグチ",
+    "realName": "糸口御虎",
+    "kicker": "THIRD YEAR / GRADE 5 / STUDENT COUNCIL",
+    "summary": "Xが越えられなかった副会長。敗者を救った理由は、まだ見えない。",
+    "quotes": [
+      "イトグチ「……私と、ですか」"
+    ],
+    "facts": [
+      {
+        "label": "学年",
+        "value": "三年生"
+      },
+      {
+        "label": "身長",
+        "value": "188cm"
+      },
+      {
+        "label": "性別",
+        "value": "男"
+      },
+      {
+        "label": "Grade",
+        "value": "5"
+      },
+      {
+        "label": "所属",
+        "value": "未所属"
+      },
+      {
+        "label": "立場",
+        "value": "生徒会副会長"
+      },
+      {
+        "label": "能力",
+        "value": "本編では未披露"
+      }
+    ],
+    "bio": [
+      "生徒会副会長。Xの回想の中で登場し、勉強サークルの仲間から預かった星を含む150個を賭けた挑戦を退ける。当時のXには、実力でも届かない相手だった。",
+      "その後、星を失った部員たちの行き先で、Xとルサイを止めて生き残らせた。治療後に星0となっていたXへ、自分の星を譲って生徒として戻す。決闘を介さない星の譲渡は、生徒会の特権である。",
+      "現在の生徒会へは、プラスがマイナスの弟であることを先に伝えている。しかしプラス本人との面会はまだ描かれていない。救った行動の背景や副会長としての思惑は、ここまでの本文だけでは確定できない。"
+    ],
+    "factions": [
+      "student-council"
+    ],
+    "images": {
+      "portrait": "../characters-data/itoguchi/portrait.webp?v=a65dee4837c2",
+      "original": "../characters-data/itoguchi/original.webp?v=6ac1e01d3167"
+    },
+    "story": {
+      "first": {
+        "id": "chapter1-episode19",
+        "title": "第1章　第19話　熱の向こうに、あの日の声"
+      },
+      "appearances": [
+        {
+          "id": "chapter1-episode19",
+          "title": "第1章　第19話　熱の向こうに、あの日の声"
+        },
+        {
+          "id": "chapter1-episode20",
+          "title": "第1章　第20話　一人の拳、みんなの声"
+        }
+      ]
+    }
+  }
+]

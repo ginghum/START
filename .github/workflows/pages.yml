@@ -30,6 +30,9 @@ jobs:
       - name: Validate character catalog
         run: python tools/validate-catalog.py
 
+      - name: Validate STORY catalog
+        run: python tools/validate-story-catalog.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

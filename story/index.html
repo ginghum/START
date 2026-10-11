@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="メインストーリー登場済みキャラクターの物語専用名鑑。第1章21話・おまけ3まで。">
+  <title>カス校名鑑STORY</title>
+  <link rel="stylesheet" href="../styles.css?v=story-v1">
+  <script src="../app.js?v=story-v1" defer></script>
+</head>
+<body data-page="home" data-catalog="story">
+  <main class="home-shell">
+    <nav class="catalog-nav" aria-label="名鑑の切り替え"><a href="../index.html">通常名鑑</a><a href="index.html" aria-current="page">カス校名鑑STORY</a><a href="https://ginghum.github.io/cursehighschool-/">メインストーリー</a></nav>
+    <section class="hero">
+      <p class="eyebrow">MAGICAL CURSE IMPERIAL NATIONAL HIGH SCHOOL</p>
+      <h1>カス校名鑑<br>STORY</h1>
+      <p class="lead">メインストーリーに登場した人物を、物語の中での姿から紹介する名鑑。<span id="character-count">キャラクターを読み込んでいます。</span></p>
+    <p class="story-notice">第1章 第21話・おまけ3までを収録。紹介文には、この範囲の展開が含まれます。Gradeは物語時点のもの。基本プロフィールと立ち絵は通常名鑑を参照し、本編で未披露の能力は伏せています。</p>
+    </section>
+
+    <section class="catalog-tools" aria-labelledby="filter-heading">
+      <div class="filter-heading-row">
+        <div>
+          <p class="eyebrow">CHARACTER FILTER</p>
+          <h2 id="filter-heading">キャラクターを絞り込む</h2>
+        </div>
+        <button id="reset-filters" class="reset-filters" type="button">条件を解除</button>
+      </div>
+
+      <div class="filter-grid">
+        <label class="filter-field">
+          <span>Grade（ランク）</span>
+          <select id="grade-filter">
+            <option value="">すべてのGrade</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>所属サークル</span>
+          <select id="club-filter">
+            <option value="">すべての所属</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>勢力</span>
+          <select id="faction-filter">
+            <option value="">すべての勢力</option>
+            <option value="student-council">生徒会</option>
+            <option value="anti-council">反生徒会</option>
+            <option value="pacifist">平和主義者</option>
+          </select>
+        </label>
+        <label class="filter-field">
+          <span>性別</span>
+          <select id="gender-filter">
+            <option value="">すべての性別</option>
+          </select>
+        </label>
+      </div>
+
+      <p id="filter-result" class="filter-result" aria-live="polite"></p>
+    </section>
+
+    <section id="character-grid" class="character-grid" aria-label="キャラクター一覧" aria-live="polite">
+      <p class="loading-message">キャラクターを読み込んでいます。</p>
+    </section>
+  </main>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="ページの先頭へ戻る">
+    <span aria-hidden="true">↑</span>
+    <span>上へ戻る</span>
+  </button>
+</body>
+</html>

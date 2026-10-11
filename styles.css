@@ -61,3 +61,12 @@ a{color:inherit}
 @media(max-width:900px){.filter-grid{grid-template-columns:1fr}.character-grid,.character-head,.image-grid{grid-template-columns:1fr}.character-card{min-height:210px}.art-card--portrait img,.art-card--sketch img{max-height:none}.facts{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.filter-heading-row{align-items:flex-start;flex-direction:column}.reset-filters{width:100%}.topbar{align-items:flex-start;flex-direction:column}.facts{grid-template-columns:1fr}.character-card img{height:360px}.back-to-top{right:14px;bottom:14px}.back-to-top span:last-child{display:none}}
 @media(prefers-reduced-motion:reduce){.character-card,.back-to-top,.ability-cycle,.character-change{transition:none}.character-card:hover,.character-change:hover{transform:none}}
+
+/* STORY版：共通名鑑のレイアウトと画像を利用 */
+.catalog-nav { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-bottom: 2rem; }
+.catalog-nav a, .story-appearances a { color: inherit; text-underline-offset: .25em; }
+.catalog-nav [aria-current="page"] { font-weight: 700; }
+.story-notice { font-size: .9rem; line-height: 1.9; padding: 1rem 1.2rem; border-left: 3px solid #b19768; background: rgba(177,151,104,.08); }
+.story-first { font-size: .8rem; line-height: 1.6; opacity: .8; }
+.story-appearances { margin-top: 2rem; }
+.story-appearances ul { display: grid; gap: .65rem; padding-left: 1.3rem; }

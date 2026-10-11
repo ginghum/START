@@ -1,4 +1,6 @@
-const DATA_URL = "data/characters.json";
+const IS_STORY = document.body.dataset.catalog === "story";
+const CATALOG_TITLE = IS_STORY ? "カス校名鑑STORY" : "カス高 キャラクター名鑑";
+const DATA_URL = IS_STORY ? "characters.json" : "data/characters.json";
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
@@ -103,6 +105,9 @@ function renderCharacterCards(grid, characters) {
       element("span", "", `本名：${character.realName}`),
       element("p", "", character.summary)
     );
+    if (IS_STORY && character.story) {
+      card.append(element("span", "story-first", `初登場：${character.story.first.title}`));
+    }
     grid.append(card);
   });
 }
@@ -191,14 +196,14 @@ function renderCharacterDetail(characters) {
   const container = document.querySelector("#character-detail");
 
   if (!character) {
-    document.title = "キャラクターが見つかりません | カス高 キャラクター名鑑";
+    document.title = `キャラクターが見つかりません | ${CATALOG_TITLE}`;
     container.replaceChildren(
       element("section", "not-found", "指定されたキャラクターは見つかりませんでした。")
     );
     return;
   }
 
-  document.title = `${character.name} | カス高 キャラクター名鑑`;
+  document.title = `${character.name} | ${CATALOG_TITLE}`;
   document.querySelector('meta[name="description"]').content = character.summary;
 
   const head = element("section", "character-head");
@@ -250,6 +255,21 @@ function renderCharacterDetail(characters) {
 
   const bio = element("section", "bio");
   character.bio.forEach((paragraph) => bio.append(element("p", "", paragraph)));
+
+  if (IS_STORY && character.story) {
+    const source = element("section", "story-appearances");
+    source.append(element("h2", "", "登場するストーリー"));
+    const list = element("ul");
+    character.story.appearances.forEach((chapter, index) => {
+      const item = element("li");
+      const link = element("a", "", `${index === 0 ? "初登場：" : ""}${chapter.title}`);
+      link.href = `https://ginghum.github.io/cursehighschool-/#chapter=${encodeURIComponent(chapter.id)}`;
+      item.append(link);
+      list.append(item);
+    });
+    source.append(list);
+    bio.append(source);
+  }
 
   const gallery = element("section", "gallery");
   gallery.append(element("h2", "", "Character Art"));
