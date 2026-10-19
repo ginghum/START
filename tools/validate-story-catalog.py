@@ -19,7 +19,7 @@ for character in characters:
         path = (ROOT / 'story' / image.split('?')[0]).resolve()
         assert path.is_relative_to(ROOT.resolve()) and path.is_file(), image
     assert 'changeTarget' not in character
-assert next(p for p in characters if p['id'] == 'plus')['facts'][3]['value'] == '1'
+assert next(p for p in characters if p['id'] == 'plus')['facts'][3]['value'] == '2'
 for id in ['hikaru', 'kobal']:
     assert next(f['value'] for p in characters if p['id'] == id for f in p['facts'] if f['label'] == 'Grade') == '4'
 print(f'STORY名鑑検証完了: {len(characters)}名')
