@@ -278,7 +278,7 @@ function renderCharacterDetail(characters) {
   const imageGrid = element("div", "image-grid");
   imageGrid.append(
     artCard(character.images.portrait, `${character.name}のAI立ち絵`, "AI standing illustration", "art-card--portrait"),
-    artCard(character.images.original, `${character.name}の元手書き資料`, "Original sketch", "art-card--sketch")
+    artCard(character.hideOriginalSketch ? null : character.images.original, `${character.name}の元手書き資料`, "Original sketch", "art-card--sketch")
   );
   gallery.append(imageGrid);
 
@@ -315,12 +315,15 @@ function setupAbilityCycle(target, abilities) {
 
 function artCard(src, alt, caption, modifier) {
   const figure = element("figure", `art-card ${modifier}`);
-  const image = element("img");
-  image.src = src;
-  image.alt = alt;
-  image.loading = "lazy";
-  image.decoding = "async";
-  figure.append(image, element("figcaption", "", caption));
+  if (src) {
+    const image = element("img");
+    image.src = src;
+    image.alt = alt;
+    image.loading = "lazy";
+    image.decoding = "async";
+    figure.append(image);
+  }
+  figure.append(element("figcaption", "", caption));
   return figure;
 }
 
