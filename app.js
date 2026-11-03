@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function renderCharacterList(characters) {
+  characters = characters.filter((character) => !character.hidden);
   const grid = document.querySelector("#character-grid");
   const count = document.querySelector("#character-count");
   count.textContent = `${characters.length}名を掲載中。`;
@@ -231,6 +232,7 @@ function renderCharacterDetail(characters) {
       "character-change",
       character.changeTarget.label
     );
+    if (character.changeTarget.hidden) changeLink.classList.add("character-change--secret");
     changeLink.href = `character.html?id=${encodeURIComponent(character.changeTarget.id)}`;
     const target = characters.find((item) => item.id === character.changeTarget.id);
     if (target) {

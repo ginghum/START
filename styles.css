@@ -70,3 +70,7 @@ a{color:inherit}
 .story-first { font-size: .8rem; line-height: 1.6; opacity: .8; }
 .story-appearances { margin-top: 2rem; }
 .story-appearances ul { display: grid; gap: .65rem; padding-left: 1.3rem; }
+
+/* A quiet, keyboard-accessible doorway on Plus's profile. */
+.character-change--secret{opacity:.12;transition:opacity .18s}
+.character-change--secret:hover,.character-change--secret:focus-visible{opacity:1}
